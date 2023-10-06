@@ -18,4 +18,31 @@ An invalid keyword and an empty string will be handled as the anonymous keyword.
 By default (that is, when the attribute is not specified), CORS is not used at all. The user agent will not ask for permission for full access to the resource and in the case of a cross-origin request, certain limitations will be applied based on the type of element concerned.
 
 
+## Parcel
+- Creating a local server
+- HMR: Hot Module Replacement
+- Bundling
+- Minifying
+- Cleaning our code 
+- Dev and production build
+- Super-fast build algorithm
+- Image optimization
+- Caching while development
+- Compression
+- Compatible with older versions of browser
+- HTTPS on dev 
+- Port number
+- Consistent Hashing Algorithm 
+- Zero configuration
+- Tree-shaking: Remove unused code
 
+## Transitive dependencies
+- Dependencies are installed transitively but dev-dependencies are not installed transitively.
+- For example, if A depends on B and dev-depends on C. B depends on D and dev-depends on E. C depends on F and dev-depends on G.
+Then for A: B,C,D,F will be installed.
+- Dependencies are required for the project, dev-dependencies are required for development environment.
+
+## Browserlist
+- Can be added to package.json to specify which browsers are definitely supported.
+- Polyfill is code which gets converted newer piece of code to support older browsers. For example, const, Promise, map are converted to older
+browser-compatible code. Done by Babel.

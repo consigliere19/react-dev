@@ -1,9 +1,13 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const heading = React.createElement("h1", { id: "title" }, "Hi there!!");
 const secondHeading = React.createElement(
     "h2",
     {},
-    "Hi there!!!"
+    "Hi there!!! We have fired up Parcel!!! Yay!!"
 );
 const container = React.createElement(
     "div",
